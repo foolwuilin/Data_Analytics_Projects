@@ -52,8 +52,15 @@ Furthermore, because this table will be used for clustering based on the yearly 
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/03_msno.png)
 
-After removing the Chechen Republic and Republic of Ingushetia records, there is no missing value in the table. The first table containing all sales of different alcohol during the last three years is complete so far.
+Now, the second table containing the historical sales of wine is complete. So far, there are two major tables for further clustering analysis as follows.
 
-The next step is to prepare the other table containing the wine sales records at all times. Since some regions only lose partial sales records of wine, this step will fill the missing value by an average sales number.
+A table contains all wine sales records in relative magnitude at all times.
+A table contains the average sales of different categories during the last three years.
+3.2  3.2 EDA Summary
+The given dataset has missing values. Most missing values are from 4 regions, Chechen Republic, Republic of Crimea, Republic of Ingushetia, and Sevastopol. The preparation process falls into two parts because this report would like to cluster the regions by two dimensions, the current sales combination of all alcohol and the wine sales trend.
 
-Furthermore, because this table will be used for clustering based on the yearly sales trend, dividing the sales by the maximum sales number will force the sales of different regions to be in the same range. Thus, the clustering result will be affected by relative magnitude instead of the real sales numbers.
+Two regions do not have sales records during the last three years. Thus, the preparation of the first table is to remove the records of Chechen Republic and Republic of Ingushetia. Then, "data_recent" containing the average sales of different categories during the last three years is ready.
+
+As for the other table, the further analysis aims to cluster the regions based on the sales trend of wine. Since some regions have partial missing records of wine, the preparation was to fill the missing value by an average sales number. Plus, in order to let the cluster by relative magnitude instead of the real sales numbers, the sales numbers were divided by the maximum number of wine sales. Then, "data" is cleaned by removing Chechen Republic, which does not have any sales record of wine.
+
+However, the "data" table still needs transformation to make it suitable for further clustering. Below "data_pivot" is the complete version for analysis.
