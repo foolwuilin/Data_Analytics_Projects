@@ -38,7 +38,7 @@ As for identifying a suitable number of clusters, Elbow Method can help determin
 ## Data Cleansing and Exploratory Data Analysis
 This section involves data cleansing with an exploratory data analysis. It is a preparation of the dataset for further analysis.
 
-![](/image/01_msno.jpg)
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/01%20msno.png)
 
 It seems there is a pattern. When sorting the dataset by regions, the missing values gather together. Thus, the next step is to figure out what particular regions have missing values. Are these regions' data completely lost in all kinds of alcohol, or are only some data missing? If it is just partially missing, will it still be useful for further analysis?
 
