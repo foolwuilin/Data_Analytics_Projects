@@ -1,3 +1,5 @@
+## [Press here for the original code.](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/quantile-k-means-and-hierarchical-clustering.ipynb)
+
 # 1. Introduction
 ## 1.1 Summary
 A company sells different kinds of alcohol across regions in Russia, there was a success after running a wine promotion in Saint Petersburg. This analysis would like to suggest further promotions to maximize the profits. However, the current situation allows us to target only a few regions due to a limited budget. By generating more short-term wins, our company will eventually extend the business throughout the country.
