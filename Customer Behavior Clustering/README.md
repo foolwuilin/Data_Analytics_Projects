@@ -1,4 +1,4 @@
-## [Press here for the original code.](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/quantile-k-means-and-hierarchical-clustering.ipynb)
+## [Press here for the original Python codes.](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/quantile-k-means-and-hierarchical-clustering.ipynb)
 
 # 1. Introduction
 ## 1.1 Summary
@@ -82,3 +82,5 @@ However, before starting K-means clustering, figuring out the ideal number of cl
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/06_mean_std.png)
 
 **"data_pivot"** seems the distributions of the variables are not quite skewed. Since K-means clustering works better on variables with almost the same mean and variance, the variables in this table look acceptable for further analysis. However, the below normalization shows the normalized table is also good for K-means clustering. Thus, this report will keep using the normalized table for the analysis.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/07_elbow.png)
