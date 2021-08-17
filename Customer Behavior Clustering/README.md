@@ -38,11 +38,11 @@ As for identifying a suitable number of clusters, Elbow Method can help determin
 ## Data Cleansing and Exploratory Data Analysis
 This section involves data cleansing with an exploratory data analysis. It is a preparation of the dataset for further analysis.
 
-![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/01%20msno.png)
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/01_msno.png)
 
 It seems there is a pattern. When sorting the dataset by regions, the missing values gather together. Thus, the next step is to figure out what particular regions have missing values. Are these regions' data completely lost in all kinds of alcohol, or are only some data missing? If it is just partially missing, will it still be useful for further analysis?
 
-![](/image/02_msno.png)
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/02_msno.png)
 
 After removing the Chechen Republic and Republic of Ingushetia records, there is no missing value in the table. The first table containing all sales of different alcohol during the last three years is complete so far.
 
@@ -50,7 +50,7 @@ The next step is to prepare the other table containing the wine sales records at
 
 Furthermore, because this table will be used for clustering based on the yearly sales trend, dividing the sales by the maximum sales number will force the sales of different regions to be in the same range. Thus, the clustering result will be affected by relative magnitude instead of the real sales numbers.
 
-![](/image/03_msno.png)
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/03_msno.png)
 
 After removing the Chechen Republic and Republic of Ingushetia records, there is no missing value in the table. The first table containing all sales of different alcohol during the last three years is complete so far.
 
