@@ -50,13 +50,15 @@ The next step is to prepare the other table containing the wine sales records at
 
 Furthermore, because this table will be used for clustering based on the yearly sales trend, dividing the sales by the maximum sales number will force the sales of different regions to be in the same range. Thus, the clustering result will be affected by relative magnitude instead of the real sales numbers.
 
-![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/03_msno.png)
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/04_msno.png)
 
 Now, the second table containing the historical sales of wine is complete. So far, there are two major tables for further clustering analysis as follows.
 
-A table contains all wine sales records in relative magnitude at all times.
-A table contains the average sales of different categories during the last three years.
-3.2  3.2 EDA Summary
+1. A table contains all wine sales records in relative magnitude at all times.
+2. A table contains the average sales of different categories during the last three years.
+
+# EDA Summary
+
 The given dataset has missing values. Most missing values are from 4 regions, Chechen Republic, Republic of Crimea, Republic of Ingushetia, and Sevastopol. The preparation process falls into two parts because this report would like to cluster the regions by two dimensions, the current sales combination of all alcohol and the wine sales trend.
 
 Two regions do not have sales records during the last three years. Thus, the preparation of the first table is to remove the records of Chechen Republic and Republic of Ingushetia. Then, "data_recent" containing the average sales of different categories during the last three years is ready.
