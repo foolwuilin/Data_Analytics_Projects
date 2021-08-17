@@ -103,7 +103,7 @@ Another criterion is the actual sales of the regions. The previous clustering us
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/10_scatter.jpg)
 
-![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/11_top10.jpg)
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/11_top10_2.jpg)
 
 So far, by sorting the score numbers, the above table clearly shows the top 10 regions where the next wine promotion should proceed. The below scatter plot demonstrates the distribution of these 10 regions.
 
