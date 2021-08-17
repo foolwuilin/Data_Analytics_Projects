@@ -81,6 +81,18 @@ However, before starting K-means clustering, figuring out the ideal number of cl
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/06_mean_std.png)
 
-**"data_pivot"** seems the distributions of the variables are not quite skewed. Since K-means clustering works better on variables with almost the same mean and variance, the variables in this table look acceptable for further analysis. However, the below normalization shows the normalized table is also good for K-means clustering. Thus, this report will keep using the normalized table for the analysis.
+**"data_pivot"** seems the distributions of the variables are not quite skewed. Since K-means clustering works better on variables with almost the same mean and variance, the variables in this table look acceptable for further analysis. However, the below normalization shows the normalized table is also good for K-means clustering. Thus, this report will use the normalized table for the analysis.
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/07_elbow.png)
+
+## 4.2 K-means Clustering¶
+Regarding the outcome of the Elbow method, it is clear that 4 clusters are the ideal solution for this situation. As a result, this analysis splits regions into 4 clusters and then visualizes the buying behavior of the regions in different clusters. The heatmap shows 17 regions have the same buying behavior of wine as Saint Petersburg that the customers buy more wine between 2003 to 2011.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/08_behavior.png)
+
+With regards to the heatmap above, the regions of cluster 0 have a peak of purchasing wine between 2007 and 2016. Cluster 1 buys more wine from 2003 to 2011. Cluster 2 has steady buying behavior that there are no obviously huge sales in the history. In contrast, cluster 3 has steady high wine sales at all times.
+
+## 4.3 Top 10 Regions¶
+In order to select 10 potential regions from the 17 regions in cluster 1, this section is to pick the most valuable regions by regression analysis and the actual sales numbers. First, the higher the correlation coefficient, the higher the potential profit. A positive correlation coefficient means the sales number increases every year. Thus, the correlation coefficient will be one criterion to select regions.
+
+Another criterion is the actual sales of the regions. The previous clustering uses relative magnitude to cluster regions by the sales trend of wine in years. However, in this way, the regions in cluster 1 may not have as high sales as Saint Petersburg. Thus, further analysis will calculate average sales during the last three years and then rank regions by these sales numbers as well as the correlation coefficients.
