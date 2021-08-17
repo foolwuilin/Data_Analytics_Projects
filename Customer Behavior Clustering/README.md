@@ -96,3 +96,9 @@ With regards to the heatmap above, the regions of cluster 0 have a peak of purch
 In order to select 10 potential regions from the 17 regions in cluster 1, this section is to pick the most valuable regions by regression analysis and the actual sales numbers. First, the higher the correlation coefficient, the higher the potential profit. A positive correlation coefficient means the sales number increases every year. Thus, the correlation coefficient will be one criterion to select regions.
 
 Another criterion is the actual sales of the regions. The previous clustering uses relative magnitude to cluster regions by the sales trend of wine in years. However, in this way, the regions in cluster 1 may not have as high sales as Saint Petersburg. Thus, further analysis will calculate average sales during the last three years and then rank regions by these sales numbers as well as the correlation coefficients.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/09_trend.png)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/10_scatter.jpg)
+
+
