@@ -99,6 +99,74 @@ Another criterion is the actual sales of the regions. The previous clustering us
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/09_trend.png)
 
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/10_0_cluster.jpg)
+
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/10_scatter.jpg)
 
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/11_top10.jpg)
 
+So far, by sorting the score numbers, the above table clearly shows the top 10 regions where the next wine promotion should proceed. The below scatter plot demonstrates the distribution of these 10 regions.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/12_top10scatter.jpg)
+
+The K-mean clustering helps select regions by the sales trend of wine. Also, the coefficients and sales numbers help give scores for ranking. Because of this, this report is able to pick the top 10 regions for the next wine promotion.
+
+However, it is beneficial to see a different result by taking into account all kinds of alcohol. Thus, the next section will use another clustering method to find the regions similar to Saint Petersburg in terms of the sales of different alcohol.
+
+## 4.4 Hierarchical Clustering
+
+"data_recent" contains the sales records during the last three years when the previous Process phase. Next, this section groups the table by regions and get the average recent sales of different alcohol. By looking at the dendrogram of hierarchical clustering, splitting regions into 4 clusters is an option. If reducing the number of clusters, the hierarchical distance will be too long that there is much difference between clusters.
+
+The cluster with Saint Petersburg has 34 regions. By comparing the hierarchical clustering and K-means clustering results, this report is able to come out 6 high priority regions out of the top 10 regions. This approach is also beneficial for operation and project management to arrange the priority of tasks.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/image/13_hierarchy.png)
+
+**Top 10 Regions in both lists: ['Leningrad Oblast', 'Chukotka Autonomous Okrug', 'Kaliningrad Oblast', 'Pskov Oblast', 'Saint Petersburg', 'Kursk Oblast']
+Top 10 Regions not in the hierarchical cluster: ['Republic of Karelia', 'Kirov Oblast', 'Sverdlovsk Oblast', 'Penza Oblast']**
+
+# 5. Conclusion
+This report aims to select 10 potential regions for the next wine promotions to maximize the profits. The chosen methods are K-means clustering and hierarchical clustering. Regarding K-means clustering, this report decided to proceed with K-means clustering with 4 clusters by the Elbow method. The K-means clustering with historical wine sales selects 17 regions with the same wine buying behavior as Saint Petersburg.
+
+In order to figure out which 10 regions have the highest profitability. This report selects the regions by regression analysis. The higher the correlation coefficient, the higher the potential profit. Furthermore, by taking into account the wine sales, this report is able to pick the top 10 regions as below.
+
+1. Republic of Karelia
+2. Kirov Oblast
+3. Leningrad Oblast
+4. Sverdlovsk Oblast
+5. Chukotka Autonomous Okrug
+6. Kaliningrad Oblast
+7. Pskov Oblast
+8. Saint Petersburg
+9. Kursk Oblast
+10. Penza Oblast
+
+As for the hierarchical clustering, this report uses a table with recent sales of all alcohol. After splitting the regions into 4 clusters, there are 34 regions picked by the sales combination. Since clustering by historical sales should more accurately reflect the buying behavior than clustering by only the recent sales, this report takes the top 10 regions clustered by K-means clustering with historical sales as a primary list.
+
+By comparing the top 10 regions with the region list picked by the hierarchical clustering, this report is able to recommend that 6 regions should be the primary regions for the wine promotions.
+
+1. Leningrad Oblast
+2. Chukotka Autonomous Okrug
+3. Kaliningrad Oblast
+4. Pskov Oblast
+5. Saint Petersburg
+6. Kursk Oblast
+
+Then, below 4 regions can be set as the lower priority in the top 10 regions.
+
+1. Republic of Karelia
+2. Kirov Oblast
+3. Sverdlovsk Oblast
+4. Penza Oblast
+
+Since the budget is limited, it will be beneficial that this report suggests a priority list. This approach would help the operation team to plan risk management. Also, it will help the project manager create a better plan for setting up the priority of tasks.
+
+According to the heatmap of the clusters selected by K-means, the 4 clusters have totally different buying trends. Clearly, the K-means clustering does split the regions properly. However, clustering by other methods will still be nice to have. Further analysis can try other methods and then compare different results to seek whether there is a better solution.
+
+# 6. Reference
+Brown, M. (2019). Innovation in Marketing - CIM Official Module Guide. Berkshire: The Chartered Institute of Marketing.
+
+Chaffey, D. (2019). Digital Marketing: Strategy, Implementation and Practice (7th ed.). Harlow: Pearson Education.
+
+Flood, B. (2018). K-means Clustering: Algorithm, Applications, Evaluation Methods, and Drawbacks. Towards Data Science. Retrieved from https://towardsdatascience.com/
+
+Garbade, M. J. (2018). Understanding K-means Clustering in Machine Learning. Towards Data Science. Retrieved from https://towardsdatascience.com/
