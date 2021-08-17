@@ -1,4 +1,4 @@
-## [Press here for the original Python codes.](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/quantile-k-means-and-hierarchical-clustering.ipynb)
+## [Press Here for The Coding](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Customer%20Behavior%20Clustering/quantile-k-means-and-hierarchical-clustering.ipynb)
 
 # 1. Introduction
 ## 1.1 Summary
