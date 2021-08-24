@@ -103,3 +103,47 @@ The line plot demonstrates the deseasonalized rainfall has many outliners, altho
 Comparing the R-squared number of the original model to the deseasonalized model, the improvement only increases from 0.001 to 0.006. The optimized regression can only explain 0.6% of variables, which is very bad. Thus, the next step is to try another way to optimize this prediction model.
 
 ## 4.1.2 Optimize The Model by 4 Seasons
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/data_3.jpg)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/seasonal_3.png)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/description_3.jpg)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/description_4.jpg)
+
+The optimization is still not able to improve the prediction model, even though we choose to predict a seasonal rainfall instead of monthly rainfall. The R-squared number only increases from 0.001 to 0.015. It demonstrates predicting the rainfall by seasonal factors completely fails. As a result, this analysis will change to predict by machine learning algorithms.
+
+## 4.2 Machine Learning Method
+Since the previous prediction method based on seasonal factors was not quite ideal, this section will use machine learning methods to build a prediction model. This analysis will compare the predictions from classification and regression models.
+
+### 4.2.1 Predict by Classifiers
+The steps of classification would be as below.
+
+1. Prepare a dataframe with needed information for training the models
+2. Label the rainfall into 4 levels of ranges
+3. Fit different models with GridSearch and see the accuracy
+4. Review the accuracy scores and confusion matrix to ensure whether the results are acceptable
+
+Ideally, this analysis chooses the below columns to build up the data for training the machine learning models. Moreover, since the moving average method made some missing variables in 1901, the dataframe drops the rows.
+
+- Year
+- Month
+- Precipitation (mms)
+- Moving average number
+- Annual rainfall from the last year
+- JF (Jan-Feb) season rainfall from the last year
+- MAM (Mar-May) season rainfall from the last year
+- JJAS (Jun-Sep) season rainfall from the last year
+- OND (Oct-Dec) season rainfall from the last year
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/data_4.jpg)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/description_5.jpg)
+
+
+
+
+
+
+
