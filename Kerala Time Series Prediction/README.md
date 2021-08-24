@@ -177,7 +177,7 @@ The red spots indicate outliners. The prediction has many outliners since the we
 
 - Ridge
 
-The slope of the coeeficients smoothly goes down in this Rifge model. It seems better than the LinearRegresson model. However, this analysis will keep comparing different models.
+The slope of the coefficients smoothly goes down in this Ridge model. It seems better than the LinearRegresson model. However, this analysis will keep comparing different models.
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ts_3.png)
 
@@ -213,7 +213,7 @@ Lastly, these 5 regression models have similar results with closed MAE and RMSE.
 
 Despite XGBregressor, the Ridge could be the second choice with lower MAE and RMSE. Also, in the previous section, the coefficients in the Ridge model demonstrate a smoothly decreasing slope. Therefore, this analysis would consider Ridge as an ideal regression model for predicting the rainfall in Kerala.
 
-# 5 Conlusion
+# 5 Conclusion
 This analysis aims to select a prediction model for rainfall forecasting. Since Kerala contributes a high amount of agricultural products in India, maximizing the outputs and minimizing the risks of confronting natural disasters are the concern of this analysis.
 
 In general, if the situation has regular seasonal factors, e.g. sales of a retailer, predicting by seasonal factors would get promising results. However, after trying the seasonal factor method, the outcome looks bad due to too many outliers. The R-squared scores are too low to predict the rainfall accurately. Thus, the next step is to use a machine learning method instead.
