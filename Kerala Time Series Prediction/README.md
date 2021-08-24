@@ -141,9 +141,70 @@ Ideally, this analysis chooses the below columns to build up the data for traini
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/description_5.jpg)
 
+Looking into these classification reports, the precision scores of 2 models, LGBM and XGBoost, for 4 clusters are all above 50%. It seems these two models are better than the others. However, further evaluation is still needed. Therefore, this analysis will compare the model accuracy of each model.
 
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/accuracy.jpg)
 
+Despite LGBM and XGBoost, this bar chart shows the accuracy of GaussianNB and Random Forest look acceptable. Still, LGBM has the highest accuracy score, 70.98%. It could be the model for this Kerala rainfall prediction. In the next part, this analysis will review the confusion matrix and select the best solution.
 
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/confusion.png)
 
+In regards to the rainfall prediction, the worst situation is that the forecast says the weather is mild, but actually, it causes a natural disaster, such as droughts or floods. Thus, this analysis would like to evaluate the models by these false predictions. One is that the model clusters the rainfall into level 2, level 3, and level 4, but the actual rainfall is level 1, which is a drought month. The other one is that the model clusters the rainfall into level 1, level 2, and level 3, but the actual rainfall is level 4, which floods would happen in the month. Then, this analysis will compare the proportion of these false predictions to ensure whether LGBM is still the best solution.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ff.jpg)
+
+The bar chart demonstrates LGBM still has the lowest possibility to mispredict natural disasters. It is an inspiring outcome that LGBM should be the solution for this calssification analysis.
+
+### 4.2.2 Predict by Regression Models
+The steps of the regression analysis would be as below.
+
+1. Delay the precipitation in order to generate materials for machine learning models to predict.
+2. Fit regression models and plot the predictions
+3. Review the correlations of the elements used for the models to see whether there is overfitting
+4. Evaluate the prediction by MAE and RMSE
+
+First, delay the precipitation 12 times for regression models to predict because we already know the rainfall has a yearly repeat pattern from the previous section. Also, adding year, month, and season columns would potentially help the regression model predict.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/data_5.jpg)
+
+- LinearRegression
+
+The red spots indicate outliners. The prediction has many outliners since the weather is not stable in Kerala. It is difficult to predict the rainfall in this area. This analysis will evaluate the performance of the prediction by MAE and RMSE in the later section. Here, we are looking at the coefficients of every element fit into the prediction models. In this LinearRegression, the season and month factors have higher coefficients, which means the models may slightly overfit by using these two factors. The idea coefficient model should have a smoothly decreasing slope.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ts_1.png)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ts_2.png)
+
+- Ridge
+
+The slope of the coeeficients smoothly goes down in this Rifge model. It seems better than the LinearRegresson model. However, this analysis will keep comparing different models.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ts_3.png)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ts_4.png)
+
+- Lasso
+
+It is obvious that lag_12, season, and month factors have higher coefficients in this Lasso model. It still says there is slightly overfitting comparing to the Ridge model.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ts_5.png)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ts_6.png)
+
+- XGBRegressor
+
+As for XGBRegressor, it does not provide coefficients because it is a tree learner model. Here, we only review the line plot to compare the prediction and the actual rainfall.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ts_7.png)
+
+- ElasticNet
+
+The below charts shows lag_12 has a high coefficient. It demonstrates ElasticNet is the model that overfits the most in these 5 regression models so far.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ts_8.png)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/ts_9.png)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Kerala%20Time%20Series%20Prediction/image/description_6.jpg)
 
 
