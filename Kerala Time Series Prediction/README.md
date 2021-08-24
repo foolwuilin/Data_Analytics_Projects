@@ -248,7 +248,11 @@ Lastly, here are suggestions for further analysis to potentially improve the pre
 
 # 6 Reference
 Kerala. (n.d.). In Wikipedia. Retrieved on Aug 4, 2021, from https://en.wikipedia.org/wiki/Kerala
+
 Fernando, J. (2021). R-Squared Definition. Investopedia. Retrieved from https://www.investopedia.com/
+
 Deep AI (n.d.). Accuracy in Machine Learning. Retrieved on Aug 4, 2021, from https://deepai.org/machine-learning-glossary-and-terms/accuracy-error-ratea
+
 Data School (2014). Simple guide to confusion matrix terminology. Retrieved from https://www.dataschool.io/
+
 Acharya, S. (2021). What are RMSE and MAE? Towards Data Science. Retrieved from https://towardsdatascience.com/
