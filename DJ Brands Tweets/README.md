@@ -1,6 +1,6 @@
 # 1 Introduction
 ## 1.1 Summary
-inMusic Brands Inc. is one of major DJ equipment companies in the world. inMusic has 20 brands in DJ, electronic musical instrument, consumer electronics, etc. The DJ equipment brands are Numark, Rane DJ, and Denon DJ.
+inMusic Brands Inc. is one of the major DJ equipment companies in the world. inMusic has 20 brands in DJ, electronic musical instrument, consumer electronics, etc. The DJ equipment brands are Numark, Rane DJ, and Denon DJ.
 
 This social media analysis uses the messages crawled from Twitter. The time period is from July 16th to July 25th. By analyzing the data, we will be able to understand how people react to these brands, including the brands of competitors. Also, it would help understand the key customers in the DJ community. Once the key customers are identified, we will be able to target these key users and then connect to different customer groups.
 
