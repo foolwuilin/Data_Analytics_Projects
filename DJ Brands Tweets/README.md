@@ -36,6 +36,6 @@ This section involves data cleansing. It is a preparation of the dataset for fur
 
 Load the .json files and review the data structure. Confirm that there are 2070 messages in the .json file. Then, collect some information we need for further analysis, such as "created_at," "full_text," "retweet_count," "favorite_count," "screen_name, and "retweeted_status."
 
-![](/images/df_01.jpg)
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/DJ%20Brands%20Tweets/image/df_01.jpg)
 
 
