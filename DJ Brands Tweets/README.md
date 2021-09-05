@@ -96,7 +96,7 @@ The purpose of this section is to figure out who are the key users connecting di
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/DJ%20Brands%20Tweets/image/df_05.jpg)
 
-![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/DJ%20Brands%20Tweets/image/networkx_01.jpg)
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/DJ%20Brands%20Tweets/image/networkx.jpg)
 
 # 4 Analyze
 Here starts building a model to predict the likes and retweets that the posts are going to get by machine learning. First, split the message into two cohorts in terms of retweets and likes. The prediction will distinguish whether the posts are going to get high retweets or likes. Next, prepare the data to train the model. In this part, this analysis will make a text matrix for machine learning. Then, after building the model, the accuracy of the optimized model to predict likes is 60.4% which is not accurate enough. Besides, the optimized model to predict retweets is only 66.7%. The prediction for both retweets and likes is not so ideal.
