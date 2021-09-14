@@ -99,7 +99,7 @@ See the distribution of these 10 combinations.
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/plot_13.jpg)
 
-![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/plot_13.jpg)
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/plot_14.jpg)
 
 # 5. Conclusion
 In sum, here are viewpoints as below.
