@@ -32,4 +32,29 @@ This analysis will load the 2 datasets. The first one with member IDs will be us
 First of all, load the essential packages and read the 1st datasets.
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/df_01.jpg)
 
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/plot_01.jpg)
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/df_02.jpg)
+
+Get the support value by Apriori algorithm.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/df_03.jpg)
+
+Create a datafram with product support, confidence , and lift values.
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/df_04.jpg)
+
+Take a quick look at the distribution of the product combination
+
+![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/plot_02.jpg)
+
+
+
+
+
+
+
+
+
+
 
