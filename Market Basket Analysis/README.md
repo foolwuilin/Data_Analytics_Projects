@@ -15,7 +15,7 @@ The analysis plan is to answer the questions.
 2. what are the consequents of the chosen items?
 3. How confident do the consequents come after the items?
 4. What are the most important items that should always be in the store?
-5. How the item network looks like?
+5. How does the item network looks like?
 6. What is the difference between analyzing the data based on customer ID and different transactions?
 
 ## 2.2 Method
