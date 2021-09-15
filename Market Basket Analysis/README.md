@@ -73,7 +73,7 @@ Get the top 10 percentile items and then plot heatmaps to know how strong the as
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/plot_08.jpg)
 
 ## 4.2 Dataset-2 (Transaction with Items Only)
-First, review the total number of items to see wether there is any difference between dataset 1 and dataset 2. After checking, the numbers are the same. However, this analysis will generate a dataframe based on every transaction instead of customer IDs. Let's see the difference.
+First, review the total number of items to see whether there is any difference between dataset 1 and dataset 2. After checking, the numbers are the same. However, this analysis will generate a dataframe based on every transaction instead of customer IDs. Let's see the difference.
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/plot_09.jpg)
 
