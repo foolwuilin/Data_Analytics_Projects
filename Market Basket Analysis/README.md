@@ -24,7 +24,7 @@ This analysis will load the 2 datasets. The first one with member IDs will be us
 1. Prepare the 2 .csv files
 2. A bar chart to see the most frequently sold items
 3. A quick look at the relationship between items
-4. Select an item to proceed a further analysis
+4. Select an item to proceed with a further analysis
 5. A heatmap to review the association between antecedents and consequents
 6. A network graphic to know the connections of the selected item
 
