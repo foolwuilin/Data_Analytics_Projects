@@ -40,7 +40,7 @@ Get the support value by Apriori algorithm.
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/df_03.jpg)
 
-Create a datafram with product support, confidence, and lift values.
+Create a dataframe with product support, confidence, and lift values.
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/df_04.jpg)
 
