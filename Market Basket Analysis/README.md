@@ -58,7 +58,7 @@ Get the most important 5 items that customers would buy after purchasing whole m
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/df_06.jpg)
 
-Get the top 10 persentile items and then plot heatmaps to know how strong the association is based on support and lift values.
+Get the top 10 percentile items and then plot heatmaps to know how strong the association is based on support and lift values.
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/plot_03.jpg)
 
