@@ -50,7 +50,7 @@ Take a quick look at the distribution of the product combination
 
 # 4. Analyze
 ## 4.1 Dataset-1 (Customer IDs, Transaction dates, and Items)
-So far, the datafame is ready for a further analysis.
+So far, the dataframe is ready for a further analysis.
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/Market%20Basket%20Analysis/images/df_05.jpg)
 
