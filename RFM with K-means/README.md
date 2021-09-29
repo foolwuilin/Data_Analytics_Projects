@@ -18,6 +18,7 @@ Lastly, this analysis campares the outcomes from the linear quantile method and 
 
 # 4. Prepare¶
 First of all, take a look at the dataset.
+
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/RFM%20with%20K-means/images/df_01.jpg)
 
 
