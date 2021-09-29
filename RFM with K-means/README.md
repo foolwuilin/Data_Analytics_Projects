@@ -67,7 +67,7 @@ Here is to subset the data by the top 5% quantile in recency, frequency, and mon
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/RFM%20with%20K-means/images/df_07.jpg)
 
-Again, visualize the data to see where these 752 customers are.
+Again, visualize the data to see where these 224 customers are.
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/RFM%20with%20K-means/images/plot_04.jpg)
 
