@@ -11,6 +11,7 @@ The questions for this analysis are as follows.
 
 # 3. Method
 - Python 
+
 This analysis splits into two sections. The first section is to cluster the customers by using a linear quantile method. This way, it will be clear who purchases on certain days and how much they spent recently.
 The second section is a k-mean clustering analysis. This method splits the customers into three different clusters in different criteria, recency, frequency, and monetary. In this way, there will be a group of selected people marked as the most important customers for this business.
 
