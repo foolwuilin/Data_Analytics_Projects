@@ -92,7 +92,7 @@ Get the log scale in order to get a better distribution and then plot the log nu
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/RFM%20with%20K-means/images/plot_07.jpg)
 
-Regarding the below elbow method, the sharpest angel is the optimal number of clusters. Thus, 3 clusters are the appropriate clusters.
+Regarding the below elbow method, the sharpest angle is the optimal number of clusters. Thus, 3 clusters are the appropriate clusters.
 
 ![](https://github.com/foolwuilin/Data_Analytics_Projects/blob/main/RFM%20with%20K-means/images/plot_08.jpg)
 
